@@ -18,11 +18,16 @@ const state = {
         apples: {}
     },
 
-    level: 2,
+    level: 1,
     maps: {
         "map1": map1,
         "map2": map2,
         "map3": map3,
         "map4": map4
-    }
+    },
+    score: 0,
+    nextLevel: false,
+    win: false,
+    gameStart: false,
+    gameOver: false
 };
